@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <title>La Ursa Tours - Alpha</title>
+    <link rel="icon" href="assets/Logo%20La%20Ursa%20Amarela.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="tours.css">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="col" id="logo" onclick="changePager('home')"><img src="assets/Logo%20La%20Ursa%20Amarela.png"></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-md-4 ml-auto" id="navbarNav">
+            <ul class="navbar-nav row align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" onclick="changePager('home')">Início<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" onclick="changePager('about')">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tours" onclick="changePager('tours')">Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" onclick="changePager('contact')">Contato</a>
+                </li>
+<!--
+                <li class="nav-item col self-align-end">
+                    <div id="google_translate_element"></div>
+                </li>
+-->
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="main" class="section ">
+        <div id="home" class="page">
+            <header id="home-head" class="head">
+            </header>
+            <content id="content">
+                <div id="home-content" class="component row justify-content-center">
+                    <div id="main-cont-txt" class="col-lg-4">
+                        <h2 id="main-cont-title">Centro do Recife + Olinda<br> Zona Sul (Praia)</h2>
+                        <h4 id="main-cont-desc">Um passeio pela parte historica do Recife. Aproveite um passeio de bike pelos arrecifes e praias</h4>
+                        <a href="#" class="btn btn-primary">SAIBA MAIS</a>
+                    </div>
+                    <div id="main_image" class="col-sm-4"></div>
+                </div>
+                <div id="other-contents" class="component row justify-content-center">
+
+                    <!--loadcards(cards.length,'other-contents')-->
+
+                </div>
+                <div id="main-creative" class="row justify-content-center">
+                    <div id="main-creative-text" class="col-lg-4">
+                        <h2 id="main-creative-text-title">Saiba mais sobre o turismo criativo.</h2>
+                        <h5 id="main-creative-text-desc">Um passeio pela parte historica do Recife. Aproveite um passeio de bike pelos arrecifes e praias</h5>
+                        <a class="btn btn-primary" href="http://turismocriativo.visit.recife.br/">VISITE O SITE</a>
+                    </div>
+                    <img src="assets/sunny_clouds.jpg" id="main-creative-img" class="col-sm-4">
+                </div>
+            </content>
+
+
+        </div>
+        <div id="about" class="page row justify-content-center">
+            <header id="about-head"></header>
+            <content>
+                <div id="about-index" class="container">
+                    <a class="col-sm-1" onclick="changePager('home');" href="#home">INICIO</a>/
+                    <a class="col-sm-2">QUEM SOMOS</a>
+                </div>
+
+                <div id="about-content" class="container">
+
+                    <div id="about-main" class="row justify-content-center">
+                        <div id="about-text" class="col-lg-6">
+                            <div id="about-la-ursa">
+                                <h4>POR QUE LA URSA TOURS</h4>
+                                <h6>A "La Ursa" é parte do folclore pernambucano. A tradição vem dos ciganos da Idade Média, na Europa. Quando chegou ao Brasil, foi adaptada para os nossos costumes. As pessoas durante o carnaval, especialmente crianças, vestem-se como ursos e com uma pequena banda, saem às ruas dançando, cantando e pedindo dinheiro como recompensa. E caso você não dê, é considerado pirangueiro (mão de vaca). "A la ursa quer dinheiro, quem não dá é piragueiro!" eles cantam.</h6>
+                            </div>
+                            <div id="about-who">
+                                <h4>Quem somos</h4>
+                                <h6>A La Ursa Tours nasceu há muito tempo, mas só recentemente nos demos conta disso.
+                                    É que quando amigos - e até amigos de amigos - costumavam vir ao Recife, pediam-nos ajuda para planejar seus roteiros, e é assim até hoje. Como moradores locais, queremos que nossos visitantes saibam, entendam e vejam as coisas por aqui da maneira mais original e verdadeira possível. Nós somos nascidos e criados aqui. Amamos nossa cidade. E nos surpreendemos, a cada dia, quando ela nos faz descobrir coisas novas. Acreditamos na bicicleta e no andar a pé como as melhores opções para se conhecer um lugar!</h6>
+                            </div>
+                            <div id="about-do">
+                                <h4>O que fazemos</h4>
+                                <h6>Nós trabalhamos para proporcionar aos visitantes das cidades de Recife e Olinda as experiências mais originais e verdadeiras, nos recantos mais interessantes e peculiares destas cidades. Temos uma perspectiva diferente, e é isso que queremos dividir com você. Mais do que mostrar os locais turísticos, queremos que você entenda, a partir do nosso olhar e vivência, um pouco mais da nossa cultura e geografia urbana.
+                                </h6>
+                            </div>
+                            <a class="btn btn-primary" href="#">AGENDAR TOUR</a>
+                        </div>
+                        <div id="about-carroussel" class="col-sm-4 w-100">
+
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/20190503_160206.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/ground-zero-2014135_1920.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/Natural_pools_-_Boa_Viagem_Beach_-_Recife,_Pernambuco,_Brazil.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </content>
+        </div>
+        <div id="tours" class="page">
+            <header id="tours-head"></header>
+            <content>
+                <div class="container">
+                    <div id="tours-index" class="container">
+                        <a class="col-sm" onclick="changePager('home');" href="#home">INICIO</a>/
+                        <a class="col">TOURS</a>
+                    </div>
+                    <div id="availables-tours" class="component row justify-content-center">
+
+                        <!--loadcards(cards.length,'availables-tours')-->
+
+                    </div>
+                </div>
+            </content>
+        </div>
+        <div id="contact" class="page">
+            <header id="contact-head"></header>
+            <content>
+                <div id="contact-page" class="container">
+                    <div id="tours-index" class="">
+                        <a class="col" onclick="changePager('home');" href="#home">INICIO</a>/
+                        <a class="col">CONTATO</a>
+                    </div>
+                    <div id="contact-content" class="container">
+                        <h6>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit orci at lorem pharetra iaculis. Proin in posuere justo. Donec dignissim nisi vel dolor venenatis varius ac quis magna. Sed vehicula elit lectus, vel iaculis sapien gravida eu. Vestibulum pulvinar sed tellus sed ornare. Nunc fermentum faucibus sapien. Proin dictum viverra purus vel tincidunt.
+                        </h6>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputName1">Nome</label>
+                                <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+
+                                <label for="exampleInputTel1">Telefone</label>
+                                <input type="telephone" class="form-control" id="exampleInputEmail1" aria-describedby="telephonelHelp">
+
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                                <label for="exampleInputTel1">Mensagem</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Se você não for um robô</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </content>
+
+        </div>
+        <div class="footer">
+            <div class="container" id="footer-content">
+                <div class="row justify-content-center">
+                    <div id="foot-contact" class="col-sm-4">
+                        <h3>La Ursa Tours</h3>
+                        <div class="row el"><img src="assets/icons/smartphone-call.png">
+                            <a href="tel:+5581996498843">
+                                <h5>55 (81) 99649 - 8843</h5>
+                            </a>
+                        </div>
+                        <div class="row el"><img src="assets/icons/envelope.png">
+                            <a href="mailto:info@laursatours.com">
+                                <h5>info@laursatours.com</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="foot-ads" class="col-sm-4">
+                        <a href="https://tembici.com.br/"><img src="assets/icons/tembici-2.png"></a>
+                    </div>
+                    <div id="foot-tours" class="col-sm-3">
+                        <a onclick="changePager('tours')" href="#tours">
+                            <h3>Escolha Seu Tour</h3>
+                        </a>
+                        <ul>
+                            <a>
+                                <li href="#">Centro do Recife + Olinda (praia)</li>
+                            </a>
+                            <a>
+                                <li href="#">Recife + Olinda</li>
+                            </a>
+                            <a>
+                                <li href="#">Olinda</li>
+                            </a>
+                            <a>
+                                <li href="#">Tour personalizado</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Imports-->
+    <script src="user.js"></script>
+    <script src="cards.js"></script>
+    <script src="pager.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>

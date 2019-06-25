@@ -1,0 +1,52 @@
+.footer {
+    background-color: #154bff;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a :hover{
+    color: yellow;
+}
+
+.footer h3 {
+    padding-bottom: 10px;
+}
+
+#footer-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#foot-contact img{
+    height: 20px;
+    padding-right: 10px;
+}
+
+#foot-contact h3 {
+    margin: 0;
+}
+
+.el {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#foot-ads{
+}
+
+#foot-ads img{
+    width: 175px;
+}
+
+#foot-tours {
+}
+
+#foot-tours ul{
+    padding-left: 0;
+    list-style-type: none;
+}

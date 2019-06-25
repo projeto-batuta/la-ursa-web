@@ -1,0 +1,42 @@
+#about {
+    display: none;
+}
+
+#about-head {
+    background-image: url(assets/ground-zero-2014135_1920.jpg)
+}
+
+#about-index a{
+    color: black;
+    font-size: h5;
+}
+
+#about-index {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#about-text {
+    overflow-x: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#about-text h6,h4{
+    padding-bottom: 20px;
+}
+
+#about-text h4{
+    font-weight: bold;
+}
+
+#about-text {
+    padding-bottom: 50px;
+}
+
+
+#about-carroussel {
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
