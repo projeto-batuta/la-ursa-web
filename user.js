@@ -1,3 +1,5 @@
+ setUserLocation();
+
 var user = {
     name:"",
     tel:"",

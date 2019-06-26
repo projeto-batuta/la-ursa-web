@@ -1,11 +1,5 @@
 #home-head {
     background-image: url(assets/20190503_160206.jpg);
-    width: 100%;
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #home-content {
