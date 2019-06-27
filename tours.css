@@ -41,11 +41,6 @@
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    #showcase {
-        
-    }
-}
 
 #showcase .title h3{
     padding-top: 40px;
@@ -71,4 +66,15 @@
 
 #showcase #dropdownMenuButton a{
     color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+/*
+    #showcase {
+        align-content: center;
+    }
+    #showcase .card {
+          align-content: center;
+    }
+*/
 }
