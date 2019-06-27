@@ -20,3 +20,55 @@
 /*    background-color: yellow;*/
 /*    margin: 5%;*/
 }
+
+#showcase #description {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#actualCase h5{
+    padding: 10px;
+}
+
+.desctitle h6{
+    font-weight: bold;
+/*    padding: 10px;*/
+}
+
+#show-about-title{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #showcase {
+        
+    }
+}
+
+#showcase .title h3{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#showcase .btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#showcase #dropdownMenuButton {
+    background-color: white;
+    border-radius: 10px;
+    color: darkgray;
+    border-color: lightgray;
+}
+
+#frevow{
+    border-radius: 20px;
+}
+
+#showcase #dropdownMenuButton a{
+    color: lightgray;
+}

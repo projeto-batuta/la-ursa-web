@@ -6,6 +6,7 @@ var user = {
     email:"",
     mens:"",
     tourId:0,
+    confirmed:false,
     location:
     {
         latitude:0,
